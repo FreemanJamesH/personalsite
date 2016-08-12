@@ -1,53 +1,41 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #ccc;
 }
 
-.hoverbox {
+svg path {
+}
+
+svg path:hover {
+  fill:#14ec65
+}
+
+
+
+.hex {
+  width: 25%;
   position: absolute;
-  color: white;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-}
-.arrowDiv {
-  display: inline-block;
-  margin-right: 10px;
 }
 
-.rightArrow {
-  float:left;
-  margin-left: 10px;
+.hex1 {
+  top: 15%;
+  background-color: transparent;
+  left: 34%;
+  fill: red;
 }
 
-.leftArrow {
-  float: right;
+.hex2 {
+ top: 47.8%;
+ left: 21.3%;
+ fill: orange;
 }
 
-
-
-a {
-  text-decoration: none;
-  color: pink;
+.hex3 {
+  top: 15%;
+  left: 59.2%;
+  fill: green;
 }
 
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-.nav li:hover {
-  background-color: orange;
-  cursor: pointer;
-}
-
-.nav li {
-  font-family: 'Reem Kufi', monospace;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
+.hex4 {
+  top: 47.8%;
+  left: 46.5%;
+  fill: blue;
 }
